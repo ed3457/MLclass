@@ -43,10 +43,10 @@ cm = confusion_matrix(y_test, predictions)
 
 TN, FP, FN, TP = confusion_matrix(y_test, predictions).ravel()
 
-print('True Positive(TP)  = ', TP)
-print('False Positive(FP) = ', FP)
-print('True Negative(TN)  = ', TN)
-print('False Negative(FN) = ', FN)
+print('True Positive(TP) = ', TP)
+print('False Positive(FP)= ', FP)
+print('True Negative(TN) = ', TN)
+print('False Negative(FN)= ', FN)
 
 accuracy =  (TP + TN) / (TP + FP + TN + FN)
 
